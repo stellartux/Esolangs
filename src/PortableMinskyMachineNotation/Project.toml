@@ -1,0 +1,7 @@
+name = "PortableMinskyMachineNotation"
+uuid = "6fd779dd-ca70-4d72-826b-c23fcd20323b"
+authors = ["Danny Robinson <dannyrobinson@gmx.com>"]
+version = "0.1.0"
+
+[deps]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"

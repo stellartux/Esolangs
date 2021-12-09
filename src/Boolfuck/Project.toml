@@ -1,0 +1,4 @@
+name = "Boolfuck"
+uuid = "9b1c56d3-d6da-4a01-905a-42f672504fbf"
+authors = ["Danny Robinson <dannyrobinson@gmx.com>"]
+version = "0.1.0"

@@ -1,0 +1,7 @@
+name = "Esolangs"
+uuid = "ee8a864c-643c-4bd2-ab33-a3112d8a2bf9"
+authors = ["Danny Robinson <dannyrobinson@gmx.com>"]
+version = "0.1.0"
+
+[deps]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"

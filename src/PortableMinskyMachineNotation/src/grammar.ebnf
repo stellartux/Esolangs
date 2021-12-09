@@ -1,0 +1,11 @@
+digit       ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+counter     ::= digit+
+test        ::= ("dec" | "dec_by") '('? counter [ ','? counter ] ')'?
+command     ::= ("inc" | "inc_by") '('? counter [ ','? counter ] ')'? ';'?
+             |  test ';'?
+             |  "if" '(' test ')' block [ "else" block ]
+             |  "while" '('? test ')'? block
+             |  "input" '('? counter ')'? ';'?
+             |  "output" '('? counter ')'? ';'?
+block       ::= '{'? commandlist ('}' | "end")
+commandlist ::= command+
