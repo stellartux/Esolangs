@@ -1,0 +1,4 @@
+name = "Parsers"
+uuid = "edfed0c5-d54e-4be8-807f-187c956bd71a"
+authors = ["Danny Robinson <dannyrobinson@gmx.com>"]
+version = "0.1.0"
